@@ -1,9 +1,15 @@
 
+//
+// activation.h
+//
+// Copyright (c) 2017 Steven Miller <stevenmiller888@me.com>
+//
+
 #include <stdio.h>
 #include "math.h"
 
 float activation_logistic(float x) {
-  return 1/(1 + exp(-x));
+  return 1 / (1 + exp(-x));
 }
 
 float activation_linear(float x) {
